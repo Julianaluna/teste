@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font-family: Arial, sans-serif;
+	background: url(../imagens/cordefundo.png);
+
+}
+
+
+
+body .conf0 {
+
+	font-size: 0.8em;
+}
+
+
+body .conf {
+	padding-top: 5px;
+	margin: 5px 40px;
+	font-size: 0.8em;
+	color: #A4A4A4;
+	line-height: 2em;
+	word-spacing: 2.5px;
+}
+
+
+body .conf2 {
+	padding: 5px 2px;
+	margin: 2.5px 40px;
+	font-size: 1.5em;
+	color: #A4A4A4;
+	line-height: 2em;
+	word-spacing: 2.5px;
+}
+
+
+
+
+
+body .conf3 {
+	padding: 5px 8px 0 0;
+	margin: 5px 8px;
+	font-size: 1em;
+	color: #A4A4A4;
+	line-height: 1em;
+	word-spacing: 2.5px;
+}
+
+
+
+
+
+
+
+#container {
+	width: 920px;
+	height: 920px;
+	margin: 0 auto;
+	
+
+
+}
+
+
+#topo {
+	height: 100px;
+	background: #fff url(../imagens/logo.png) no-repeat left center;
+	padding-top: 20px;
+	margin-top: 5px;
+	
+
+}
+
+
+/*Barra de Navegação*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	
+}
+
+
+#topo ul {
+	margin-top: 1.5px;
+	margin-left: 50px;
+	float: left;
+	padding-top: 1.5em;
+	padding-left: 20em;
+	display: block;
+
+
+
+}
+
+#topo ul .botao1 {
+
+	float: left;
+	display: block;
+	padding: 0.5em 0.5em;
+	line-height: 2.1em;
+	color: #000000;
+	word-spacing: 2px;
+}
+
+
+
+#topo ul .botao2 {
+	float: left;
+	display: block;
+	padding: 0.5em 1.5em;
+	margin-right: 15px;
+	line-height: 2.1em;
+	border: 2px solid #00BFFF;
+	color: #848484;
+
+
+
+}
+
+#topo ul .botao3 {
+
+	float: left;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2em;
+	border: 2px solid #0B0B61;
+	background: #0B0B61;
+	color: #fff;
+	font-size: 1em;
+	
+
+}
+
+
+
+/*CONFIGURAÇÕES DE LAYOUT*/
+
+#conteudo {
+	margin-top: 60px;
+	
+	
+}
+
+
+#primario {
+
+	width: 280px;
+	float: left;
+	margin: 0 0 20px 270px;
+	background: #FFFFFF;
+}
+
+#secundario {
+
+	width: 280px;
+	float: left;
+	margin: 0 0 20px 15px;
+	background: #FFFFFF;
+
+}
+
+#lateral {
+
+	width: 200px;
+	float: left;
+	margin: 0 0 20px -790px;
+	background: #0B0B61;
+
+}
+
+
+
+/*PRIMARIO*/ 
+
+
+#form1  {
+
+	float: left;
+	display: block;
+	padding: 0.5em 1.5em;
+	margin: 5px 1.5px 5px 150px;
+	line-height: 2.1em;
+	border: 2px solid #00BFFF;
+	color: #848484;
+	word-spacing: 2px;
+	clear: both;
+}
+
+	
+#form2  {
+
+	float: left;
+	display: block;
+	padding: 0.5em 1.5em;
+	margin: -58px 5px 5px 5.5px;
+	line-height: 2.1em;
+	border: 2px solid #00BFFF;
+	color: #848484;
+	word-spacing: 2px;
+	clear: both;
+}
+
+
+
+/* CAIXA LATERAL */
+
+.caixa {
+	padding-top: 5px;
+	background: #fff;
+
+}
+
+
+
+h2 {
+	color: #A4A4A4;
+	padding: 5px;
+	font-style: oblique;
+	font-size: 1em;
+	background: #ffff;
+}
+
+.caixa-conteudo {
+
+	background: #0B0B61;
+	padding: 5px;
+	color: #ffff;
+
+
+}
+
+
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+
+
+}
+
+#lateral ul a:hover {
+
+	color:#00BFFF;
+	padding-left: 85px;
+	background: url(../imagens/sino.png) left center;
+
+
+
+}
+
+
+
+/*RODAPE*/
+
+#container-rodape {
+	background: #D8D8D8;
+	padding: 10px;
+}
+
+
+#rodape {
+	width: 320px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
